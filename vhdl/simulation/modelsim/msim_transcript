@@ -21,6 +21,8 @@
 # -- Compiling entity counter_project
 # -- Compiling architecture structure of counter_project
 # 
+view wave
+# .main_pane.mdi.interior.cs.vm.paneset.cli_0.wf.clip.cs.pw.wf
 vsim work.counter_project
 # vsim work.counter_project 
 # Loading std.standard
@@ -44,11 +46,12 @@ vsim work.counter_project
 # Loading stratixii.stratixii_lcell_ff(vital_lcell_ff)
 view wave
 # .main_pane.mdi.interior.cs.vm.paneset.cli_0.wf.clip.cs.pw.wf
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+restart
 force -freeze sim:/counter_project/clk 1 0, 0 {50 ps} -r 100
-run
-run
-run
-run
 run
 run
 run

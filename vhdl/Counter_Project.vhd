@@ -3,13 +3,13 @@ use ieee.std_logic_1164.all;
 use IEEE.STD_LOGIC_UNSIGNED.ALL;
 
 entity Counter_Project is
-port(clk:in std_logic;
-	f0,f1,f2:out std_logic);
+port(clk:in std_logic;-- giris olarak sadece saat var
+	f0,f1,f2:out std_logic);-- cikis olarak f2 en buyuk basamak f0 en kucuk basamaðý temsil edicek
 end Counter_Project;
 
 architecture behavioral of Counter_Project is
-signal X0 : std_logic:='0';
-signal x1 : std_logic:='0';
+signal X0 : std_logic:='0';-- degerini korudugu icin deger ve yapýsal ile davranýssal mimariyi ayný anda kullanmaya izin verdiði için 
+signal x1 : std_logic:='0';--signal kullandým
 signal A0 : std_logic:='0';
 signal A1 : std_logic:='0';
 signal A2 : std_logic:='0';
@@ -24,8 +24,8 @@ signal kx0 : std_logic:='1';
 signal jx1 : std_logic:='0';
 signal kx1 : std_logic:='1';
 
-begin
-j2<=((not A1)and A0)or (x1 and (not x0)and A0) ;
+begin-- kernough haritalarýndan çýkan eþitlikleri signallere atadým. k2, kx0 ve kx1 in deðeri 
+j2<=((not A1)and A0)or (x1 and (not x0)and A0) ;--sabit ve bir deðerinde oldugu için burda bir deðiþiklik yapmadým
 j1<=A2 and A0;
 k1<=((x1 and(not x0))and((not A2)and A0));
 j0<=(not A2) or A1;
@@ -34,9 +34,9 @@ jx1<=(x0 and(not A2)and A1 and A0);
 jx0<=(not x1)and(not A2)and A1 and A0;
 process(clk,j2,k1,j1,k1,j0,k0,jx1,kx1,jx0,kx0)
 begin
-	if(clk='1' and clk'event)then
-	
-		--jk xo
+	if(clk='1' and clk'event)then--devrenin sýralý olmasý icin saat kullanýrýz
+	--devre 5 bit iþlemekte olduðu için 5 flip flop kullanýlýyor. bu beþ bitin sadece 3 ü görüntülenecektir. bunlar sirasiyla A2 A1 A0 dir
+		--jk xo 
 		if(jx0='0'and kx0='0')then
 			x0<=x0;
 		elsif(jx0='0'and kx0='1')then
@@ -92,7 +92,7 @@ begin
 		end if;
 		
 		
-	end if;
+	end if;--x1 ve x0 bitleri 3 sayýsýnýn tekrarýný kontrol etmektedir ve görüntülenmeyecektir.
 	    f0<=A0;
 		f1<=A1;
 		f2<=A2;
