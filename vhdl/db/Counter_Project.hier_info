@@ -1,0 +1,11 @@
+|Counter_Project
+clk => X0.CLK
+clk => x1.CLK
+clk => A0.CLK
+clk => A1.CLK
+clk => A2.CLK
+f0 <= A0.DB_MAX_OUTPUT_PORT_TYPE
+f1 <= A1.DB_MAX_OUTPUT_PORT_TYPE
+f2 <= A2.DB_MAX_OUTPUT_PORT_TYPE
+
+

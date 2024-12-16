@@ -1,0 +1,44 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\dogan\Documents\GitHub\array-counting-circuit\vhdl\simulation\modelsim
+Ecounter_project
+Z1 !s101 -O0 -O0 -O0 -O0 -O0 -O0 -O0 -O0 -O0 -O0 -O0 -O0
+Z2 w1734351146
+Z3 DPx4 ieee 16 vital_primitives 0 22 E9g6AWKAc2T]enMfl94If3
+Z4 DPx9 stratixii 19 stratixii_atom_pack 0 22 [lDm0NXaL9^]R6MVGV<EO3
+Z5 DPx4 ieee 12 vital_timing 0 22 OBWK>;kUYmkG<OChK2lhV1
+Z6 DPx9 stratixii 20 stratixii_components 0 22 6TkiE6YnTn^oN=ib1=Q_]1
+Z7 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z8 8Counter_Project.vho
+Z9 FCounter_Project.vho
+l0
+L33
+V_hck19RD_bBz2PX0cD@3n3
+!s100 38dmP[?aW`99_0h7=d:oE2
+Z10 OV;C;6.4a;39
+R1
+31
+Z11 o-93 -work work -O0
+Z12 tExplicit 1
+Astructure
+R3
+R4
+R5
+R6
+R7
+DEx4 work 15 counter_project 0 22 _hck19RD_bBz2PX0cD@3n3
+l86
+L42
+VSAb9ZgMaac@Q0^bjYYUXL3
+!s100 6S9VY0P^bdNR3GfkH;bWb2
+R10
+31
+Z13 Mx5 4 ieee 14 std_logic_1164
+Mx4 9 stratixii 20 stratixii_components
+Z14 Mx3 4 ieee 12 vital_timing
+Mx2 9 stratixii 19 stratixii_atom_pack
+Z15 Mx1 4 ieee 16 vital_primitives
+R11
+R12

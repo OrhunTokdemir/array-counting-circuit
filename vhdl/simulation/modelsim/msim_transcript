@@ -1,0 +1,90 @@
+# Reading C:/altera/90/modelsim_ase/tcl/vsim/pref.tcl 
+# do Counter_Project_run_msim_gate_vhdl.do 
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Copying C:\altera\90\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\90\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {Counter_Project.vho}
+# Model Technology ModelSim ALTERA vcom 6.4a Compiler 2008.08 Oct 22 2008
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package vital_timing
+# -- Loading package vital_primitives
+# -- Loading package stratixii_atom_pack
+# -- Loading package stratixii_components
+# -- Compiling entity counter_project
+# -- Compiling architecture structure of counter_project
+# 
+vsim work.counter_project
+# vsim work.counter_project 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading std.textio(body)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading stratixii.stratixii_atom_pack(body)
+# Loading stratixii.stratixii_components
+# Loading work.counter_project(structure)
+# Loading ieee.std_logic_arith(body)
+# Loading stratixii.stratixii_io(structure)
+# Loading stratixii.stratixii_io_register(vital_io_reg)
+# Loading stratixii.stratixii_io_latch(vital_io_latch)
+# Loading stratixii.stratixii_and1(altvital)
+# Loading stratixii.stratixii_mux21(altvital)
+# Loading stratixii.stratixii_asynch_io(behave)
+# Loading stratixii.stratixii_clkctrl(vital_clkctrl)
+# Loading stratixii.stratixii_ena_reg(behave)
+# Loading stratixii.stratixii_lcell_comb(vital_lcell_comb)
+# Loading stratixii.stratixii_lcell_ff(vital_lcell_ff)
+view wave
+# .main_pane.mdi.interior.cs.vm.paneset.cli_0.wf.clip.cs.pw.wf
+force -freeze sim:/counter_project/clk 1 0, 0 {50 ps} -r 100
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
