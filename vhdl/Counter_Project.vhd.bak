@@ -28,7 +28,7 @@ begin
 j2<=((not A1)and A0)or (x1 and (not x0)and A0) ;
 j1<=A2 and A0;
 k1<=((x1 and(not x0))and((not A2)and A0));
-j0<=(not A2) and A1;
+j0<=(not A2) or A1;
 k0<=(A2 and (not A1))or((x1 and(not x0))and(not A2)and A1);
 jx1<=(x0 and(not A2)and A1 and A0)or x1;
 jx0<=(not x1)and(not A2)and A1 and A0;

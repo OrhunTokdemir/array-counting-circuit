@@ -30,7 +30,7 @@ j1<=A2 and A0;
 k1<=((x1 and(not x0))and((not A2)and A0));
 j0<=(not A2) or A1;
 k0<=(A2 and (not A1))or((x1 and(not x0))and(not A2)and A1);
-jx1<=(x0 and(not A2)and A1 and A0)or x1;
+jx1<=(x0 and(not A2)and A1 and A0);
 jx0<=(not x1)and(not A2)and A1 and A0;
 process(clk,j2,k1,j1,k1,j0,k0,jx1,kx1,jx0,kx0)
 begin
