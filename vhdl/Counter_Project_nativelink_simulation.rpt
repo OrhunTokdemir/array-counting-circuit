@@ -1,0 +1,96 @@
+Info: Start Nativelink Simulation process
+
+========= EDA Simulation Settings =====================
+
+Sim Mode              :  Gate
+Family                :  stratixii
+Quartus root          :  c:/altera/90/quartus/bin/
+Quartus sim root      :  c:/altera/90/quartus/eda/sim_lib
+Simulation Tool       :  modelsim-altera
+Simulation Language   :  vhdl
+Version               :  93
+Simulation Mode       :  GUI
+Sim Output File       :  Counter_Project.vho
+Sim SDF file          :  Counter_Project__vhdl.sdo
+Sim dir               :  simulation\modelsim
+
+=======================================================
+
+Info: Starting NativeLink simulation with ModelSim-Altera software
+Sourced NativeLink script c:/altera/90/quartus/common/tcl/internal/nativelink/modelsim.tcl
+Warning: File Counter_Project_run_msim_gate_vhdl.do already exists - backing up current file as Counter_Project_run_msim_gate_vhdl.do.bak11
+Probing transcript
+ModelSim-Altera Info: # Reading C:/altera/90/modelsim_ase/tcl/vsim/pref.tcl 
+ModelSim-Altera Info: # do Counter_Project_run_msim_gate_vhdl.do 
+ModelSim-Altera Info: # if {[file exists gate_work]} {
+ModelSim-Altera Info: # 	vdel -lib gate_work -all
+ModelSim-Altera Info: # }
+ModelSim-Altera Info: # vlib gate_work
+ModelSim-Altera Info: # vmap work gate_work
+ModelSim-Altera Info: # Copying C:\altera\90\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+ModelSim-Altera Info: # Modifying modelsim.ini
+ModelSim-Altera Warning: # ** Warning: Copied C:\altera\90\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+ModelSim-Altera Info: #          Updated modelsim.ini.
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # vcom -93 -work work {Counter_Project.vho}
+ModelSim-Altera Info: # Model Technology ModelSim ALTERA vcom 6.4a Compiler 2008.08 Oct 22 2008
+ModelSim-Altera Info: # -- Loading package standard
+ModelSim-Altera Info: # -- Loading package std_logic_1164
+ModelSim-Altera Info: # -- Loading package vital_timing
+ModelSim-Altera Info: # -- Loading package vital_primitives
+ModelSim-Altera Info: # -- Loading package stratixii_atom_pack
+ModelSim-Altera Info: # -- Loading package stratixii_components
+ModelSim-Altera Info: # -- Compiling entity counter_project
+ModelSim-Altera Info: # -- Compiling architecture structure of counter_project
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: vsim work.counter_project
+ModelSim-Altera Info: # vsim work.counter_project 
+ModelSim-Altera Info: # Loading std.standard
+ModelSim-Altera Info: # Loading ieee.std_logic_1164(body)
+ModelSim-Altera Info: # Loading std.textio(body)
+ModelSim-Altera Info: # Loading ieee.vital_timing(body)
+ModelSim-Altera Info: # Loading ieee.vital_primitives(body)
+ModelSim-Altera Info: # Loading stratixii.stratixii_atom_pack(body)
+ModelSim-Altera Info: # Loading stratixii.stratixii_components
+ModelSim-Altera Info: # Loading work.counter_project(structure)
+ModelSim-Altera Info: # Loading ieee.std_logic_arith(body)
+ModelSim-Altera Info: # Loading stratixii.stratixii_io(structure)
+ModelSim-Altera Info: # Loading stratixii.stratixii_io_register(vital_io_reg)
+ModelSim-Altera Info: # Loading stratixii.stratixii_io_latch(vital_io_latch)
+ModelSim-Altera Info: # Loading stratixii.stratixii_and1(altvital)
+ModelSim-Altera Info: # Loading stratixii.stratixii_mux21(altvital)
+ModelSim-Altera Info: # Loading stratixii.stratixii_asynch_io(behave)
+ModelSim-Altera Info: # Loading stratixii.stratixii_clkctrl(vital_clkctrl)
+ModelSim-Altera Info: # Loading stratixii.stratixii_ena_reg(behave)
+ModelSim-Altera Info: # Loading stratixii.stratixii_lcell_comb(vital_lcell_comb)
+ModelSim-Altera Info: # Loading stratixii.stratixii_lcell_ff(vital_lcell_ff)
+ModelSim-Altera Info: view wave
+ModelSim-Altera Info: # .main_pane.mdi.interior.cs.vm.paneset.cli_0.wf.clip.cs.pw.wf
+ModelSim-Altera Info: force -freeze sim:/counter_project/clk 1 0, 0 {50 ps} -r 100
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+ModelSim-Altera Info: run
+Info: NativeLink simulation flow was successful
